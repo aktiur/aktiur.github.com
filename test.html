@@ -1,165 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Test title</title>
-		<link href="assets/themes/aktiur/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<!--<link href="css/style.css" rel="stylesheet" type="text/css" media="all">-->
-		
-		<style type="text/css">
-			body {
-				background: #855E42 url('assets/themes/aktiur/img/wood.jpg');
-			}
-			
-			header {
-				background: white url('assets/themes/aktiur/img/grid-18px-masked.png');
-				margin: 18px 0 30px;
-				padding: 5px 30px;
-				-webkit-border-radius: 10px 10px 0 0;
-				   -moz-border-radius: 10px 10px 0 0;
-				        border-radius: 10px 10px 0 0;
-				border: 1px solid #ddd;
-				border-bottom: 1px dashed #ddd;
-			}
-			
-			.article, .menu {
-				background-color: white;
-				position: relative;
-			}
-			
-			.article {
-				padding: 2em;
-				text-align: justify;
-				border: 1px solid #e3e3e3;
-				background-image: url('assets/themes/aktiur/img/paper3.jpg');
-			}
-			
-			.menu {
-				background-image: url('assets/themes/aktiur/img/paper4.jpg');
-				/*border: 1px solid #765015;*/
-				padding: 5px;
-			}
-			
-			.nav-list .nav-header {
-				color: #000;
-			}
-			
-			.menu a {
-				color: #000;
-			}
-			
-			.tape {
-				position: absolute;
-				top: -15px;
-				opacity: 0.6;
-				width: 60px;
-				height: 35px;
-				background-color: #fff;
-				border-left: 1px dashed rgba(0,0,0,0.1);
-				border-right: 1px dashed rgba(0,0,0,0.1);
-				-webkit-box-shadow: 0px 0px 1px 0px #cccccc;
-				   -moz-box-shadow: 0px 0px 1px 0px #cccccc;
-				        box-shadow: 0px 0px 1px 0px #cccccc;
-			}
-			
-			.tape.left {
-				right: 45px;
-				-webkit-transform: rotate(-2deg);
-				   -moz-transform: rotate(-2deg);
-				     -o-transform: rotate(-2deg);
-				        transform: rotate(-2deg);
-			}
-			
-			.tape.right {
-				left: 55px;
-				-webkit-transform: rotate(4deg);
-				   -moz-transform: rotate(4deg);
-				     -o-transform: rotate(4deg);
-				        transform: rotate(4deg);
-			}
-			
-			.left-shadow {
-				position: absolute;
-				z-index: -6;
-				height: 150px;
-				width: 150px;
-				bottom: 5px;
-				left: 5px;
-				-webkit-box-shadow: -8px 8px 10px 0px rgba(0,0,0,0.7);
-				   -moz-box-shadow: -8px 8px 10px 0px rgba(0,0,0,0.7);
-				        box-shadow: -8px 8px 10px 0px rgba(0,0,0,0.7);
-				-webkit-transform: skewX(-3deg) skewY(-3deg);
-				   -moz-transform: skewX(-3deg) skewY(-3deg);
-				     -o-transform: skewX(-3deg) skewY(-3deg);
-				        transform: skewX(-3deg) skewY(-3deg);
-			}
-			
-			.right-shadow {
-				position: absolute;
-				z-index: -6;
-				height: 150px;
-				width: 150px;
-				bottom: 5px;
-				right: 5px;
-				-webkit-box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.7);
-				   -moz-box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.7);
-				        box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.7);
-				-webkit-transform: skewX(3deg) skewY(3deg);
-				   -moz-transform: skewX(3deg) skewY(3deg);
-				     -o-transform: skewX(3deg) skewY(3deg);
-				        transform: skewX(3deg) skewY(3deg);
-			}
-			
-			.footer {
-				background: white url('assets/themes/aktiur/img/grid-18px-masked.png');
-				margin: 30px 0 18px;
-				padding: 30px 30px;
-				border: 1px solid #ddd;
-				border-top: 1px dashed #ddd;
-				-webkit-border-radius: 0 0 10px 10px;
-				   -moz-border-radius: 0 0 10px 10px;
-				        border-radius: 0 0 10px 10px;
-			}
-			
-			.footer p {
-				margin-bottom: 0;
-				color: #555;
-			}
-		</style>
-	</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Test title</title>
+        <link href="assets/themes/aktiur/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!--<link href="css/style.css" rel="stylesheet" type="text/css" media="all">-->
+        
+        <style type="text/css">
+            body {
+                background: #855E42 url('assets/themes/aktiur/img/wood-mos.jpg');
+            }
+            
+            header {
+                position: relative;
+                background: white url('assets/themes/aktiur/img/grid-18px-masked.png');
+                margin: 18px 0 30px;
+                padding: 5px 50px;
+                -webkit-border-radius: 10px 10px 0 0;
+                   -moz-border-radius: 10px 10px 0 0;
+                        border-radius: 10px 10px 0 0;
+                border: 1px solid #ddd;
+                border-bottom: 1px dashed #ddd;
+            }
+            
+            .article, .menu, .postit {
+                background-color: white;
+                position: relative;
+                min-height: 170px;
+            }
+            
+            .article {
+                padding: 2em;
+                text-align: justify;
+                border: 1px solid #e3e3e3;
+                background-image: url('assets/themes/aktiur/img/paper3-mos.jpg');
+            }
+            
+            .menu {
+                background-image: url('assets/themes/aktiur/img/paper4-mos.jpg');
+                /*border: 1px solid #765015;*/
+                padding: 5px;
+            }
+            
+            .nav-list .nav-header {
+                color: #000;
+            }
+            
+            .menu a {
+                color: #000;
+            }
+            
+            .postit {
+                margin-top: 30px;
+                background: yellow url('assets/themes/aktiur/img/postit-green.jpg');
+                left: 5px;
+                top: -3px;
+            }
+            
+            .pin {
+                position: absolute;
+                width: 30px; height: 30px;
+                background-image: url('assets/themes/aktiur/img/pin.jpg');
+            }
+            
+            .pin.left {
+                left: 8px;
+            }
+            
+            .pin.right {
+                right: 8px;
+                -webkit-transform: rotate(43deg);
+                   -moz-transform: rotate(43deg);
+                     -o-transform: rotate(43deg);
+                        transform: rotate(43deg);
+
+            }
+            
+            .tape {
+                position: absolute;
+                top: -15px;
+                opacity: 0.6;
+                width: 60px;
+                height: 35px;
+                background-color: #fff;
+                border-left: 1px dashed rgba(0,0,0,0.1);
+                border-right: 1px dashed rgba(0,0,0,0.1);
+                -webkit-box-shadow: 0px 0px 1px 0px #cccccc;
+                   -moz-box-shadow: 0px 0px 1px 0px #cccccc;
+                        box-shadow: 0px 0px 1px 0px #cccccc;
+            }
+            
+            .tape.left {
+                left: 55px;
+                -webkit-transform: rotate(4deg);
+                   -moz-transform: rotate(4deg);
+                     -o-transform: rotate(4deg);
+                        transform: rotate(4deg);
+            }
+            
+            .tape.right {
+                right: 45px;
+                -webkit-transform: rotate(-2deg);
+                   -moz-transform: rotate(-2deg);
+                     -o-transform: rotate(-2deg);
+                        transform: rotate(-2deg);
+            }
+            
+            .shadow {
+                position: absolute;
+                z-index: -6;
+                height: 150px;
+                width: 150px;
+                bottom: 5px;
+            }
+            
+            .left.shadow {
+                left: 5px;
+                -webkit-box-shadow: -8px 8px 10px 0px rgba(0,0,0,0.7);
+                   -moz-box-shadow: -8px 8px 10px 0px rgba(0,0,0,0.7);
+                        box-shadow: -8px 8px 10px 0px rgba(0,0,0,0.7);                
+                -webkit-transform: skewX(-3deg) skewY(-3deg);
+                   -moz-transform: skewX(-3deg) skewY(-3deg);
+                     -o-transform: skewX(-3deg) skewY(-3deg);
+                        transform: skewX(-3deg) skewY(-3deg);
+            }
+            
+            .right.shadow {
+                 right: 5px;
+                -webkit-box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.7);
+                   -moz-box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.7);
+                        box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.7);
+                -webkit-transform: skewX(3deg) skewY(3deg);
+                   -moz-transform: skewX(3deg) skewY(3deg);
+                     -o-transform: skewX(3deg) skewY(3deg);
+                        transform: skewX(3deg) skewY(3deg);
+            }
+            
+            .footer {
+                position: relative;
+                background: white url('assets/themes/aktiur/img/grid-18px-masked.png');
+                margin: 30px 0 18px;
+                padding: 30px 50px;
+                border: 1px solid #ddd;
+                border-top: 1px dashed #ddd;
+                -webkit-border-radius: 0 0 10px 10px;
+                   -moz-border-radius: 0 0 10px 10px;
+                        border-radius: 0 0 10px 10px;
+            }
+            
+            .footer p {
+                margin-bottom: 0;
+                color: #555;
+            }
+        </style>
+    </head>
 
   <body>
-	<div class="container">
-		<header>
-			<h1>Aktiur's desk <small>Don't mind the mess</small></h1> 
-		</header>
-		<div class="row">
-			<div class="span9">
-				<article class="article">
-					<div class="tape left"></div>
-					<div class="tape right"></div>
-					<h2>Test title!</h2>
-					<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra felis id risus gravida at egestas nisi egestas. Nulla 
+    <div class="container">
+        <header>
+            <div class="left pin"></div><div class="right pin"></div>
+            <h1>Aktiur's desk <small>Don't mind the mess</small></h1> 
+        </header>
+        <div class="row">
+            <div class="span9">
+                <article class="article">
+                    <div class="tape left"></div>
+                    <div class="tape right"></div>
+                    <h2>Test title!</h2>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra felis id risus gravida at egestas nisi egestas. Nulla 
 facilisi. Praesent sit amet ante risus, in pellentesque est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere 
 cubilia Curae; Praesent tempus congue lectus, sed feugiat eros ultrices eu. Phasellus et lectus leo. Integer in mi elit, eu interdum mi. 
 Nullam dapibus, erat adipiscing viverra volutpat, ligula eros consequat est, ut eleifend est nisl ac felis. Etiam nec purus magna, a 
 sagittis ante. Duis sodales pulvinar velit, non tempus dolor bibendum sit amet. Curabitur consequat egestas enim eget semper. Nulla 
 tincidunt lacus orci.</div>
-					<div>Curabitur pretium porttitor facilisis. Ut congue justo vitae lorem tristique commodo. Morbi faucibus condimentum ipsum, ac sagittis 
+                    <div>Curabitur pretium porttitor facilisis. Ut congue justo vitae lorem tristique commodo. Morbi faucibus condimentum ipsum, ac sagittis 
 nunc elementum sed. Duis fermentum blandit urna, nec molestie tortor viverra eu. Quisque magna justo, luctus non varius id, vulputate id 
 mi. Suspendisse mollis nibh non mauris facilisis in consectetur purus elementum. Aliquam sit amet lacus ut ligula eleifend semper in eget 
 massa. Quisque velit eros, viverra vel ullamcorper a, commodo vel mauris. Quisque pharetra dui in odio ornare nec ultrices metus posuere.
 </div>
-					<div>Sed odio sapien, consectetur quis sodales at, blandit quis nisl. Ut rhoncus odio non mi scelerisque id vestibulum dolor pharetra. 
+                    <div>Sed odio sapien, consectetur quis sodales at, blandit quis nisl. Ut rhoncus odio non mi scelerisque id vestibulum dolor pharetra. 
 Etiam tincidunt consectetur tristique. In hac habitasse platea dictumst. Integer semper orci et arcu aliquam quis lobortis dui auctor. 
 Morbi suscipit porttitor lacus ac lacinia. Curabitur eget elit dui.</div>
-					<div>Nulla magna ligula, venenatis vitae tristique iaculis, dictum eget orci. Cras id pharetra leo. Quisque dictum metus vel libero 
+                    <div>Nulla magna ligula, venenatis vitae tristique iaculis, dictum eget orci. Cras id pharetra leo. Quisque dictum metus vel libero 
 convallis varius. In in eros ut sapien dictum dapibus. Curabitur sodales vestibulum metus quis malesuada. In imperdiet eleifend purus, 
 pellentesque dictum libero vulputate ut. Fusce pharetra consequat sem, nec aliquet augue vehicula a. Nulla facilisi. Vivamus non nisi eu 
 tortor sollicitudin rhoncus. Donec volutpat ultricies lorem, ut convallis tortor sagittis a. Aenean mattis ullamcorper enim ut commodo. 
 Duis non mi at erat auctor egestas. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc vitae 
 tortor sem. Aenean tempor placerat aliquam.</div>
-					<div>Quisque urna lorem, auctor sit amet volutpat sit amet, scelerisque et elit. Etiam libero mi, consequat ac tempus vel, commodo nec 
+                    <div>Quisque urna lorem, auctor sit amet volutpat sit amet, scelerisque et elit. Etiam libero mi, consequat ac tempus vel, commodo nec 
 nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec quis erat est, a luctus lorem. 
 Nunc commodo porta enim, eget molestie tellus congue a. Curabitur lorem arcu, ullamcorper vel convallis ac, vestibulum ac orci. Mauris 
 congue urna ut nisi lobortis ac luctus enim lobortis. Vivamus consectetur, lacus et facilisis commodo, nisl libero molestie leo, vitae 
@@ -168,37 +196,52 @@ sed tortor. Pellentesque sodales aliquet turpis, eu vestibulum tellus adipiscing
 scelerisque vitae nisi. Donec sed urna enim, ac pretium purus. Fusce orci erat, placerat nec volutpat id, ultricies in lorem. Sed non 
 porta risus. Cras massa urna, sodales a ultrices in, venenatis pretium ante. Proin nibh leo, facilisis at sagittis nec, dapibus eu lorem.
 </div>
-					<div class="left-shadow"></div>
-					<div class="right-shadow"></div>
-				</article>
-			</div>
-			<div class="span3">
-				<nav class="menu">
-					<ul class="nav nav-list">
-						<li class="nav-header">Browse</li>
-						<li>
-							<a href="#">Home</a>
-						</li>
-						<li>
-							<a href="#">About me</a>
-						</li>
-						<li class="nav-header">Archives</li>		
-						<li>
-							<a href="#">By tag</a>
-						</li>
-						<li>
-							<a href="#">By date</a>
-						</li>
-					</ul>
-					<div class="left-shadow"></div>
-					<div class="right-shadow"></div>
-				</nav>
-			</div>
-		</div>
-		<footer class="footer">
-			<p>Designed and built by Aktiur himself (don't mock him, he's actually quite proud of this thing)</p>
-			<p>He's so arrogant, he'll never recognize he used tools such as <a href="http://twitter.github.com/bootstrap/">Bootstrap from Twitter</a>,
-				<a href="http://jekyllrb.com/">jekyll</a> and <a href="http://jekyllbootstrap.com/">Jekyll-Bootstrap</a></p>
-		</footer>
-	</div>
+                    <div class="left shadow"></div>
+                    <div class="right shadow"></div>
+                </article>
+            </div>
+            <div class="span3">
+                <nav class="menu">
+                    <ul class="nav nav-list">
+                        <li class="nav-header">Browse</li>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About me</a>
+                        </li>
+                        <li class="nav-header">Archives</li>        
+                        <li>
+                            <a href="#">By tag</a>
+                        </li>
+                        <li>
+                            <a href="#">By date</a>
+                        </li>
+                    </ul>
+                    <div class="left shadow"></div>
+                    <div class="right shadow"></div>
+                </nav>
+                
+                <div class="postit">
+                    <h3>Current Interests</h3>
+                    
+                    <ul>
+                        <li>Bitcoin</li>
+                        <li>Hindi</li>
+                        <li>Intellectual Property Rights</li>
+                    </ul>
+                    
+                    <div class="left shadow"></div>
+                    <div class="right shadow"></div>
+                </div>
+                
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="left pin"></div><div class="right pin"></div>
+            <p>Designed and built by Aktiur himself (don't mock him, he's actually quite proud of this thing)</p>
+            <p>He's so arrogant, he'll never recognize he used tools such as <a href="http://twitter.github.com/bootstrap/">Bootstrap from Twitter</a>,
+                <a href="http://jekyllrb.com/">jekyll</a> and <a href="http://jekyllbootstrap.com/">Jekyll-Bootstrap</a></p>
+        </footer>
+    </div>
   </body>

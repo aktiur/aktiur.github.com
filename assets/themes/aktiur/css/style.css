@@ -1,71 +1,179 @@
-/* Override some defaults */
-html, body {
-  background-color: #eee;
-}
-.navbar {
-  margin-bottom: 0;
-}
-.container > footer {
-  margin-top: 20px;
-}
-.container > footer p {
-  text-align: center; /* center align it with the container */
+/* -----------------------------------------
+Main structure 
+----------------------------------------- */
+
+body {
+    background: #855E42 url('../img/wood-mos.jpg');
 }
 
-/* The white background content wrapper */
-.content {
-  background-color: #fff;
-  padding: 20px;
-  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
-  -webkit-border-radius: 0 0 6px 6px;
-     -moz-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+.article, .menu, .postit {
+    background-color: white;
+    position: relative;
+    min-height: 160px;
 }
 
-/* Page header tweaks */
-.page-header {
-  background-color: #f5f5f5;
-  padding: 20px 20px 10px;
-  margin: -20px -20px 20px;
+/* Header and footer */
+header {
+    position: relative;
+    background: white url('../img/grid-18px-masked.png');
+    margin: 18px 0 30px;
+    padding: 5px 50px;
+    -webkit-border-radius: 10px 10px 0 0;
+       -moz-border-radius: 10px 10px 0 0;
+            border-radius: 10px 10px 0 0;
+    border: 1px solid #ddd;
+    border-bottom: 1px dashed #ddd;
 }
 
-.topbar .btn {
-  border: 0;
+.footer {
+    position: relative;
+    background: white url('../img/grid-18px-masked.png');
+    margin: 30px 0 18px;
+    padding: 30px 50px;
+    border: 1px solid #ddd;
+    border-top: 1px dashed #ddd;
+    -webkit-border-radius: 0 0 10px 10px;
+       -moz-border-radius: 0 0 10px 10px;
+            border-radius: 0 0 10px 10px;
 }
 
+.footer p {
+    margin-bottom: 0;
+    color: #555;
+}
 
-/* tag_box ======================================================== */
+/* Content zone */
 
-.tag_box {
-	list-style:none;
-	margin:0;
-	padding:5px 0 ;
-	overflow:hidden;
+.article {
+    padding: 2em;
+    text-align: justify;
+    border: 1px solid #e3e3e3;
+    background-image: url('../img/paper3-mos.jpg');
 }
-.tag_box li {
-	line-height:28px;
+
+/* Menu and navigation */
+
+.menu {
+    background-image: url('../img/paper4-mos.jpg');
+    /*border: 1px solid #765015;*/
+    padding: 5px;
 }
-.tag_box.inline li {
-	float:left;
+
+.menu .nav li a {
+    color: #000;
 }
-.tag_box a {
-	padding: 3px 6px;
-	margin: 2px;
-	background: #eee;
-	color:#005F6B;
-	border-radius: 3px;
-	text-decoration:none;
+
+.menu .nav-list li > a:hover {
+    background-color: transparent;
+    background-image: url('../img/highlight_purple.png');
+    background-size: 100% 100%;
 }
-.tag_box a span{
-	vertical-align:super;
-	font-size:0.8em;
+
+/* Post-it and other side elements */
+
+.postit {
+    margin-top: 30px;
+    padding: 20px;
 }
-.tag_box a.active {
-	background:#57A957;
-	border:1px solid #4C964D;
-	color:#FFF;
+
+.postit.c1 {
+    background: green url('../img/postit-green.jpg');
 }
-	
+
+.postit.c2 {
+   background: purple url('../img/postit-purple.jpg');
+}
+
+.postit.p1 {
+    left: 5px;
+    top: -3px;
+}
+
+.postit.p2 {
+    right: 3px;
+    top: 2px;
+}
+
+/* -----------------------------------------
+Graphic Elements 
+----------------------------------------- */
+
+.pin {
+    position: absolute;
+    width: 30px; height: 30px;
+    background-image: url('../img/pin.png');
+}
+
+.pin.left {
+    left: 8px;
+}
+
+.pin.right {
+    right: 8px;
+    -webkit-transform: rotate(43deg);
+       -moz-transform: rotate(43deg);
+         -o-transform: rotate(43deg);
+            transform: rotate(43deg);
+
+}
+
+.tape {
+    position: absolute;
+    top: -15px;
+    opacity: 0.6;
+    width: 60px;
+    height: 35px;
+    background-color: #fff;
+    border-left: 1px dashed rgba(0,0,0,0.1);
+    border-right: 1px dashed rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 0px 1px 0px #cccccc;
+       -moz-box-shadow: 0px 0px 1px 0px #cccccc;
+            box-shadow: 0px 0px 1px 0px #cccccc;
+}
+
+.tape.left {
+    left: 55px;
+    -webkit-transform: rotate(4deg);
+       -moz-transform: rotate(4deg);
+         -o-transform: rotate(4deg);
+            transform: rotate(4deg);
+}
+
+.tape.right {
+    right: 45px;
+    -webkit-transform: rotate(-2deg);
+       -moz-transform: rotate(-2deg);
+         -o-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+}
+
+.shadow {
+    position: absolute;
+    z-index: -6;
+    height: 150px;
+    width: 150px;
+    bottom: 5px;
+}
+
+.left.shadow {
+    left: 5px;
+    -webkit-box-shadow: -8px 8px 10px 0px rgba(0,0,0,0.7);
+       -moz-box-shadow: -8px 8px 10px 0px rgba(0,0,0,0.7);
+            box-shadow: -8px 8px 10px 0px rgba(0,0,0,0.7);                
+    -webkit-transform: skewX(-4deg) skewY(-4deg);
+       -moz-transform: skewX(-4deg) skewY(-4deg);
+         -o-transform: skewX(-4deg) skewY(-4deg);
+            transform: skewX(-4deg) skewY(-4deg);
+}
+
+.right.shadow {
+     right: 5px;
+    -webkit-box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.7);
+       -moz-box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.7);
+            box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.7);
+    -webkit-transform: skewX(3deg) skewY(3deg);
+       -moz-transform: skewX(3deg) skewY(3deg);
+         -o-transform: skewX(3deg) skewY(3deg);
+            transform: skewX(3deg) skewY(3deg);
+}
+

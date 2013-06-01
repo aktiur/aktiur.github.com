@@ -16,7 +16,8 @@ body {
 header {
     position: relative;
     background: white url('../img/grid-18px-masked.png');
-    margin: 18px 0 30px;
+    width: 80%;
+    margin: 18px auto 30px;
     padding: 5px 50px;
     -webkit-border-radius: 10px 10px 0 0;
        -moz-border-radius: 10px 10px 0 0;

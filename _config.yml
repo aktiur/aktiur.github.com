@@ -9,13 +9,35 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Aktiur's blog
-tagline: A quarter moist, two thirds frost
+title : Aktiur's desk
+tagline: Don't mind the mess
 author :
   name : Aktiur
   email : arthur@cheysson.fr
   github : aktiur
   twitter : aktiur
+
+ # specific config values for TODO and current interests
+post-its:
+    -
+        title: TO-DO
+        content: |
+            + Write a simple explanation on BitCoin
+            + Finish the design of this blog
+    -
+        title: Current interests
+        content: |
+            + BitCoin
+            + Hindi
+            + Intellectual Property Rights
+            + French Presidential Election
+    -
+        title: Current and recent readings
+        content: |
+            + Before the lights go out
+            + India after Gandhi
+ 
+ paginate: 5
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

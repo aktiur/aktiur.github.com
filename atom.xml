@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Arthur et son bureau]]></title>
+  <link href="http://aktiur.github.com/atom.xml" rel="self"/>
+  <link href="http://aktiur.github.com/"/>
+  <updated>2013-06-01T21:55:47+02:00</updated>
+  <id>http://aktiur.github.com/</id>
+  <author>
+    <name><![CDATA[Arthur]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Une introduction à l'oeuvre d'Emmanuel Todd]]></title>
+    <link href="http://aktiur.github.com/blog/2013/06/introduction-emmanuel-todd/"/>
+    <updated>2013-06-01T20:44:00+02:00</updated>
+    <id>http://aktiur.github.com/blog/2013/06/introduction-emmanuel-todd</id>
+    <content type="html"><![CDATA[<p>Cette longue introduction tente de mettre en perspective œuvre et pensée d&#8217;Emmanuel Todd telle qu&#8217;elle s&#8217;est développée dans ses livres, six d&#8217;entre eux étant présentés plus en détail. D&#8217;autres ouvrages non lus reçoivent un bref commentaire à partir de sources secondaires.</p>
+
+<p>La fiche, outre la biographie d&#8217;Emmanuel Todd placée en introduction, s&#8217;organise en trois parties. La première expose le modèle global qui sous-tend l&#8217;œuvre générale de l&#8217;historien-anthropologue-démographe. Elle recueille donc les ouvrages qui contribuent à son développement. La seconde partie s&#8217;intéresse à son activité de « prophète » dans plusieurs livres qui l&#8217;ont beaucoup fait connaître, et qui partant d&#8217;une observation de la démographie dans le temps long, élaborent des prédictions à partir des tendances découvertes. La troisième partie développe les œuvres plus polémiques d&#8217;Emmanuel Todd où il prend parti, parfois violemment, voire à l&#8217;emporte-pièce, sur des questions politiques, économiques et sociales.</p>
+<!-- more -->
+<h2 id='biographie'>Biographie</h2>
+
+<p>Emmanuel Todd est un historien, anthropologue et démographe français, né le 16 mai 1951. Il est le fils du journaliste Olivier Todd, le petit-fils de l&#8217;écrivain Paul Nizan et le petit-neveu de Claude Lévi-Strauss. Emmanuel Le Roy Ladurie, ami de la famille, lui offre son premier livre d&#8217;histoire. Il est un pur produit de la bourgeoisie intellectuelle française du milieu du siècle dernier, comme il le reconnaît lui-même<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>.</p>
+
+<p>Après un baccalauréat mathématique, il intègre Sciences Po et l&#8217;université où il fait une maîtrise d&#8217;histoire qu&#8217;il obtient en 1972 – Emmanuel Le Roy Ladurie y est son professeur d&#8217;histoire moderne. Il part ensuite étudier auprès de l&#8217;historien Peter Laslett au Trinity College de l&#8217;Université de Cambridge où il obtient son doctorat en histoire. Membre des jeunesses communistes pendant son lycée, il adhère brièvement au Parti Communiste en 1968 mais s&#8217;en éloignera rapidement.</p>
+
+<p>Il publie son premier livre, La Chute finale, prédisant la décomposition du bloc soviétique en 1976. Il est ensuite journaliste au service histoire du Monde entre 1977 et 1983. Soutenu par les maisons d&#8217;édition Le Seuil et Gallimard, il développe véritablement ses thèses dans plusieurs ouvrages au cours des années 80, thèses qui seront froidement accueillies dans les milieux universitaires. L&#8217;essentiel de sa recherche se fera ainsi en dehors de l&#8217;université. Il se fait notamment connaître du grand public avec sa note pour la fondation Saint-Simon intitulée « Aux origines du malaise politique » qui servira de base théorique à la campagne du candidat Chirac sur la fracture sociale. D&#8217;autres grandes prédictions, sur le déclin de l&#8217;empire américain, la fin de l&#8217;euro ou l&#8217;annonce de bouleversements du monde arabe lui valent souvent l&#8217;étiquette de « prophète ».</p>
+
+<p>Il est ingénieur de recherche à l&#8217;INED et a aujourd&#8217;hui 62 ans.</p>
+
+<h2 id='lanthropologie_des_systmes_familiaux'>L&#8217;Anthropologie des systèmes familiaux</h2>
+
+<p>Au fil de ses ouvrages, Emmanuel Todd développe un système global d&#8217;analyse des sociétés qui frappe par sa forte cohérence. Au centre de ce système se trouve une structure principale : le modèle familial, une description du cycle de développement des familles, des rapports entre ses membres et des règles qui président au choix des conjoints. Cette approche n&#8217;est pas révolutionnaire : elle résulte de la synthèse de deux écoles.</p>
+
+<h3 id='deux_inspirations_principales'>Deux inspirations principales<sup id='fnref:2'><a href='#fn:2' rel='footnote'>2</a></sup></h3>
+
+<p>Todd se trouve dans la droite lignée des recherches de son professeur à Cambridge Peter Laslett. Celui-ci est l&#8217;inventeur d&#8217;une méthode d&#8217;étude des systèmes familiaux qu&#8217;il applique au départ à l&#8217;Angleterre : l&#8217;analyse quantitative des données de recensement des sociétés paysannes préindustrielles pour obtenir la composition des familles rurales et en tirer des enseignements sur leur structure.</p>
+
+<p>En l&#8217;appliquant à des listes de population établies pour un village anglais au XVIIe siècle, il en tire une conclusion étonnante : le ménage simple, associant deux parents et leurs enfants non mariés et aujourd&#8217;hui caractéristique des sociétés développées d&#8217;Europe de l&#8217;ouest et d&#8217;Amérique du nord, est déjà le modèle dominant à l&#8217;époque. Laslett s&#8217;oppose ainsi à une tradition historique qui décrivait une évolution de groupes familiaux plus complexes vers ce modèle nucléaire, cause ou conséquence du développement économique et de celui de l&#8217;individualisme. C&#8217;est une toute autre réalité que découvrent les recherches entreprises dans la foulée de celles de Laslett : une très grande diversité des modèles familiaux en Europe et dans le monde, mais surtout leur extrême stabilité dans le temps.</p>
+
+<p>L&#8217;autre tradition dont s&#8217;inspire Todd, c&#8217;est l&#8217;école leplaysienne. Le Play, économiste réactionnaire du XIXe siècle, imprégné de catholicisme social, avait fait de la monographie anthropologique, description analytique d&#8217;une population, son outil d&#8217;analyse favori. Au cours de ses recherches sur les modèles ouvriers, il avait ainsi mis en lumière la grande diversité des systèmes familiaux et en avait proposé une typologie ternaire : famille instable (nucléaire, un unique couple et leurs enfants), souche (système à héritier unique et cohabitation des parents et du fils héritier marié), et patriarcale (cohabitation du père et de tous ses fils mariés), du plus simple au plus complexe.</p>
+
+<h3 id='le_systme_familial_et_son_influence'>Le système familial et son influence</h3>
+
+<p>Chez Todd, le système familial n&#8217;est surtout pas une notion racialiste. S&#8217;il caractérise une population, il est surtout propre à un territoire donné. Les migrants perdent ainsi le système familial qui les caractérisait pour adopter celui du territoire d&#8217;accueil en quelques générations. Il ne s&#8217;agit pas d&#8217;essentialiser des populations mais de définir des espaces. Par ailleurs, les systèmes familiaux ont eux-mêmes une histoire, et leur stabilité ne doit pas cacher leur évolution qui se fait toutefois sur des temps caractéristiques plus proches du millénaire que du siècle.</p>
+
+<p>Mais ce qui fait surtout l&#8217;originalité du modèle toddien, c&#8217;est l&#8217;influence que va avoir le système familial dominant sur les valeurs d&#8217;une société. L&#8217;idée est à l&#8217;origine de l&#8217;intérêt du chercheur pour les modèles familiaux : cette intuition lui vient en constatant la concordance des zones où dominent la famille communautaire, un type selon lui porteur de valeurs d&#8217;autorité et d&#8217;égalité, et de celles où triomphe une révolution communiste endogène : Russie, Chine, Yougoslavie, Vietnam. Il en vient donc à développer une typologie qui lui permet de décrire quelles sont les valeurs portées par les différents types familiaux.</p>
+
+<h3 id='la_typologie_des_systmes_familiaux'>La typologie des systèmes familiaux</h3>
+
+<p>C&#8217;est à partir de la trinité leplaysienne et des enseignements des méthodes de Laslett que Todd développe sa propre typologie des systèmes familiaux dès La Troisième Planète, sorti en 1983. Elle évoluera d&#8217;ouvrage en ouvrage au fil du développement de ses recherches.</p>
+
+<p>Il distingue deux critères principaux pour caractériser un modèle :</p>
+
+<ul>
+<li>Les rapports entre parents et enfants qui peuvent être marqués soit par la valeur d&#8217;autorité du père, soit par la valeur de liberté des enfants. Elle peut être saisie dans les statistiques de recensement par la présence de ménages associant plusieurs générations de couples (marqueur d&#8217;autorité) ou par un âge précoce de départ des enfants (marqueur de liberté).</li>
+
+<li>Les rapports entre frères, porteurs, ou non, d&#8217;une valeur d&#8217;égalité. Leur nature est visible dans les règles applicables en matière d&#8217;héritage qui peuvent être très égalitaires, indifférentes à l&#8217;égalité (utilisation généralisée du testament) ou carrément hostiles à l&#8217;égalité (pratique de l&#8217;héritier unique).</li>
+</ul>
+<div class='footnotes'><hr /><ol><li id='fn:1'>
+<p>Rencontre entre Mélenchon et Todd sur le plateau d&#8217;Arrêt sur images, le 15 avril 2011.</p>
+<a href='#fnref:1' rev='footnote'>&#8617;</a></li><li id='fn:2'>
+<p>Todd détaille ses inspirations dans l&#8217;introduction et le chapitre premier de <em>L&#8217;Origine des systèmes familiaux, Tome I</em>.</p>
+<a href='#fnref:2' rev='footnote'>&#8617;</a></li></ol></div>]]></content>
+  </entry>
+  
+</feed>

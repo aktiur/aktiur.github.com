@@ -8,9 +8,9 @@ categories:
 
 Cette longue introduction tente de mettre en perspective œuvre et pensée d'Emmanuel Todd telle qu'elle s'est développée dans ses livres, six d'entre eux étant présentés plus en détail. D'autres ouvrages non lus reçoivent un bref commentaire à partir de sources secondaires.
 
-Elle fut originellement réalisé dans le cadre du cours de Culture Générale de Mehdi Benhabri à Sciences Po. Nous étions chargé de réaliser une fiche de lecture ; la mienne a quelque peu dépassé l'objectif qui m'était originellement fixé. Je la met en conséquence à disposition sur ce site.
+Elle fut originellement réalisée dans le cadre du cours de Culture Générale de Mehdi Benhabri à Sciences Po. Nous étions chargé de réaliser une fiche de lecture ; la mienne a quelque peu dépassé l'objectif qui m'était originellement fixé. Je la met en conséquence à disposition sur ce site.
 
-La fiche, outre la biographie d'Emmanuel Todd placée en introduction, s'organise en trois parties. La première expose le modèle global qui sous-tend l'œuvre générale de l'historien-anthropologue-démographe. Elle recueille donc les ouvrages qui contribuent à son développement. La seconde partie s'intéresse à son activité de « prophète » dans plusieurs livres qui l'ont beaucoup fait connaître, et qui partant d'une observation de la démographie dans le temps long, élaborent des prédictions à partir des tendances découvertes. La troisième partie développe les œuvres plus polémiques d'Emmanuel Todd où il prend parti, parfois violemment, voire à l'emporte-pièce, sur des questions politiques, économiques et sociales.
+Outre la biographie d'Emmanuel Todd placée en introduction, la fiche s'organise en trois parties. La première expose le modèle global qui sous-tend l'œuvre générale de l'historien-anthropologue-démographe. Elle recueille donc les ouvrages qui contribuent à son développement. La seconde partie s'intéresse à son activité de « prophète » dans plusieurs livres qui l'ont beaucoup fait connaître, et qui partant d'une observation de la démographie dans le temps long, élaborent des prédictions à partir des tendances découvertes. La troisième partie développe les œuvres plus polémiques d'Emmanuel Todd où il prend parti, parfois violemment, voire à l'emporte-pièce, sur des questions politiques, économiques et sociales. Des sources complémentaires sont proposées en fin d'article pour aller plus loin.
 
 <!-- more -->
 
@@ -24,7 +24,7 @@ Il publie son premier livre, _La Chute finale_, prédisant la décomposition du 
 
 Il est ingénieur de recherche à l'INED et a aujourd'hui 62 ans.
 
-## I. L'Anthropologie des systèmes familiaux
+## I. L'Anthropologue des systèmes familiaux
 
 Au fil de ses ouvrages, Emmanuel Todd développe un système global d'analyse des sociétés qui frappe par sa forte cohérence. Au centre de ce système se trouve une structure principale : le modèle familial, une description du cycle de développement des familles, des rapports entre ses membres et des règles qui président au choix des conjoints. Cette approche n'est pas révolutionnaire : elle résulte de la synthèse de deux écoles.
 

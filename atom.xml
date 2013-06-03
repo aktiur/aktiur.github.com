@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Arthur Cheysson]]></title>
+  <title><![CDATA[Chez Arthur]]></title>
   <link href="http://aktiur.github.com/atom.xml" rel="self"/>
   <link href="http://aktiur.github.com/"/>
-  <updated>2013-06-03T03:00:24+02:00</updated>
+  <updated>2013-06-03T03:12:49+02:00</updated>
   <id>http://aktiur.github.com/</id>
   <author>
     <name><![CDATA[Arthur]]></name>
